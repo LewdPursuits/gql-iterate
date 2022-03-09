@@ -24,13 +24,13 @@ Next, create your input JSON file, with matching variables. For example:
 		"name": "test1",
 		"description": "test1",
 		"aliases": ["alias1"],
-		"category": "7d00a805-3637-4b2d-a420-1b6a4803a717"
+		"category": "7"
 	},
 	{
 		"name": "test2",
 		"description": "test2",
 		"aliases": ["alias2"],
-		"category": "7d00a805-3637-4b2d-a420-1b6a4803a717"
+		"category": "7"
 	}
 ]}
 ```
