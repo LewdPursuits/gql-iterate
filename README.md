@@ -5,7 +5,7 @@ A simple CLI utility for running a query repeatedly with different variable valu
 
 ## 🤓 Usage
 
-Create a `.gql` file containing your query, which can be named anything (make sure there's only a single query specified in the file). Define the variables that you want gql-iterate to read from a CSV with the usual syntax. For example:
+Create a `.gql` file containing your query, which can be named anything (make sure there's only a single query specified in the file). Define the variables that you want gql-iterate to read from a JSON file with the usual syntax. For example:
 
 ```gql
 mutation tagCreate($name: String!, $description: String, $aliases: [String!], $category: ID) {
